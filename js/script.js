@@ -1,4 +1,4 @@
-var playerMove, playerInput;
+let playerMove, playerInput;
 playerMove = argButtonName;
 playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 console.log('Wpisana odpowiedź to: ' + playerInput);
@@ -13,7 +13,7 @@ if (playerInput == '1') {
 }
 printMessage('Twój ruch: ' + playerMove);
 
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput; 
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput; 
 playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.');
 console.log('wybór ruchu gracza to: ' + playerInput);
 playerMove = getMoveName(playerInput);
